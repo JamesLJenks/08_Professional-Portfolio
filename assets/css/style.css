@@ -1,3 +1,32 @@
+/* Adobe Fonts: Gibson */
+@import url("https://use.typekit.net/lzx1ttw.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: canada-type-gibson, sans-serif;
+}
+
+/* Site Header */
+
+.page-header {
+}
+
 .header-gradient {
-    
+    background: rgb(0,58,92);
+    background: linear-gradient(135deg, rgba(0, 58, 92, 0.85), rgba(0, 204, 183, 0.85)), url("../images/Keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content-container {
+    height: 100vh;
 }
