@@ -44,6 +44,10 @@ h6 {
     font-size: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Navigation Bar */
 
 .logotype {
@@ -82,7 +86,7 @@ h6 {
 
 .skills-title {
     background-color: rgb(0,58,92);
-    background-image: linear-gradient(135deg, rgba(0, 58, 92, 0.85), rgba(0, 204, 183, 0.85));
+    background-image: linear-gradient(135deg, rgb(0, 58, 92), rgb(0, 204, 184));
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -99,4 +103,14 @@ h6 {
 
 .portrait {
     height: 65%;
+}
+
+.project-card {
+    cursor: pointer;
+}
+
+.project-card:hover {
+    background-color: rgb(0,58,92);
+    background-image: linear-gradient(135deg, rgb(0, 58, 92, 0.85), rgb(0, 204, 184, 0.85));
+    transition: all 0.5s ease-in-out;
 }
