@@ -15,10 +15,22 @@ body {
     font-family: canada-type-gibson, sans-serif;
 }
 
-/* Site Header */
+/* Navigation Bar */
 
-.page-header {
+.logotype {
+    display: inline-block;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
 }
+
+.jenks {
+    font-weight: 600;
+}
+
+/* Site Header */
 
 .header-gradient {
     background: rgb(0,58,92);
@@ -29,4 +41,12 @@ body {
 
 .header-content-container {
     height: 100vh;
+}
+
+.skills-section {
+    height: 65vh;
+}
+
+.skills-card {
+    height: 25vh;
 }
