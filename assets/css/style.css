@@ -44,9 +44,30 @@ body {
 }
 
 .skills-section {
-    height: 65vh;
+    height: fit-content;
 }
 
 .skills-card {
-    height: 25vh;
+    height: fit-content;
+}
+
+.skills-title {
+    background-color: rgb(0,58,92);
+    background-image: linear-gradient(135deg, rgba(0, 58, 92, 0.85), rgba(0, 204, 183, 0.85));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.about-section {
+    height: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(0,58,92);
+}
+
+.portrait {
+    height: 65%;
 }
