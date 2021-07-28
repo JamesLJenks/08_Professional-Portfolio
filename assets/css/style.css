@@ -152,6 +152,7 @@ a {
 }
 
 #project-feature:hover {
+    overflow: hidden;
     background-color: rgb(0,58,92);
     background-image: linear-gradient(135deg, rgb(0, 58, 92, 0.85), rgb(0, 204, 184, 0.85)), url("../images/CovTracker-Background.jpg");
     transition: all 0.5s ease-in-out;
@@ -166,10 +167,20 @@ a {
 /* All standard project cards */
 
 .project-card {
+    overflow: hidden;
     background-size: cover;
     background-position: center;
     height: fit-content;
     padding: 2rem;
+}
+
+.project-foreground-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    object-position: top;
+    float: right;
 }
 
 /* Project 2 Card */
@@ -188,15 +199,14 @@ a {
 
 /* Project 3 Card */
 #project-3 {
-    background-image: url("../images/Keyboard.jpg");
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    background-image: url("../images/Camp-Background.jpeg");
     height: 60vh;
 }
 
 #project-3:hover {
     background-color: rgb(0,58,92);
-    background-image: linear-gradient(135deg, rgb(0, 58, 92, 0.85), rgb(0, 204, 184, 0.85)), url("../images/Keyboard.jpg");
+    background-image: linear-gradient(135deg, rgb(0, 58, 92, 0.85), rgb(0, 204, 184, 0.85)), url("../images/Camp-Background.jpeg");
     transition: all 0.5s ease-in-out;
 }
 
